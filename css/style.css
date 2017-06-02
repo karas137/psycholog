@@ -439,7 +439,7 @@ a:focus, a:hover {
 }
 .closer-form{
 	content: '';
-	background: url(/img/close.png);
+	background: url(../img/close.png);
 	position:absolute;
 	right:0;
 	top:0;
@@ -448,7 +448,7 @@ a:focus, a:hover {
 	margin-top: 62px;
 }
 .closer-form:hover{
-	background: url(/img/close-hover.png);
+	background: url(../img/close-hover.png);
 }
 #callback_modal_btn{
 	border-radius: 0;
@@ -456,7 +456,16 @@ a:focus, a:hover {
 	padding: 10px 25px;
 	display: block;
 	margin: 0 auto;
+	background: #800080;
+	text-shadow: none;
+    color: #fff;
+    box-shadow: none;
 }
+
+#callback_modal_btn:hover {
+	background: #690169;
+}
+
 .thanks-modal{
 	color: #ffffff;
 	text-align: center;
