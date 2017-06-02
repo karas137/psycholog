@@ -1,0 +1,522 @@
+@font-face {
+    font-family: "RalewayMedium";
+    src: url("../fonts/RalewayMedium/RalewayMedium.eot");
+    src: url("../fonts/RalewayMedium/RalewayMedium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayMedium/RalewayMedium.woff") format("woff"),
+    url("../fonts/RalewayMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RalewayRegular";
+    src: url("../fonts/RalewayRegular/RalewayRegular.eot");
+    src: url("../fonts/RalewayRegular/RalewayRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayRegular/RalewayRegular.woff") format("woff"),
+    url("../fonts//RalewayRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+ol, ul {
+    list-style: none;
+}
+
+.header {
+	background: url(../img/header-bg.jpg);
+	background-size: cover;
+	padding-top: 5px;
+}
+
+.logo img {
+    max-width: 390px;
+    width: 100%;
+    max-height: 130px;
+    height: 100%;
+}
+
+.menu {
+	padding-top: 24px;
+}
+
+.menu li {
+	float: left;
+	margin-right: 35px;
+}
+
+.menu li a {
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	font-family: "RalewayMedium", Arial, Helvetica, sans-serif; 
+}
+
+.menu li a:hover {
+	color: #c38bcc;
+}
+
+.phone {
+	padding-top: 16px;
+}
+
+.phone img {
+	width: 38px;
+}
+
+.phone a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 24px;
+}
+
+.phone a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:focus, a:hover {
+    color: #fff;;
+    text-decoration: none;
+}
+
+.head-text {	
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+	font-family: "RalewayMedium", Arial, Helvetica, sans-serif; 
+	padding-top: 140px;
+}
+
+.head-text h3 {	
+    font-size: 60px;
+	font-family: "RalewayMedium", Arial, Helvetica, sans-serif; 
+}
+
+.more-btn {
+	background: #800080;
+    color: #fff;
+    padding: 15px 35px;
+}
+
+.btn:hover {
+    background-color: #690169;
+    color: #ffffff;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.info {
+	background-color: rgba(190, 137, 201, 0.7);
+    padding: 60px 20px 60px;
+    margin-top: 270px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.info p {
+    font-size: 22px;
+}
+
+.help-btn {
+	background: #800080;
+    color: #fff;
+    padding: 15px 35px;
+	margin-top: 30px;
+}
+
+.helpful-block {
+    text-align: center;
+    color: #ffffff;
+    background-color: #4a148c;
+}
+
+
+.helpful-block img {
+    height: 70px;
+}
+
+.helpful-block__title {
+    padding-bottom: 80px;
+    padding-top: 70px;
+}
+
+
+.helpful-block h3 {
+	font-size: 36px;
+	font-family: "RalewayRegular", Arial, Helvetica, sans-serif;
+}
+
+.helpful-block p {
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.helpful-block span {
+	font-size: 24px;
+	font-family: "RalewayRegular", Arial, Helvetica, sans-serif;
+}
+
+.about {
+	
+}
+
+.title-block {
+    margin-top: 100px;
+    margin-bottom: 65px;
+    font-size: 36px;
+    text-align: center;
+	font-family: "RalewayRegular", Arial, Helvetica, sans-serif;
+}
+
+.about img {
+	width: 100%;
+}
+
+.about-text {
+	text-align: left;
+}
+
+.about-text span {
+    font-size: 24px;
+	font-family: "RalewayRegular", Arial, Helvetica, sans-serif;
+}
+
+.about-text h4 {
+    font-size: 18px;
+	font-family: "RalewayRegular", Arial, Helvetica, sans-serif;
+	color: #757474;
+}
+
+.about-text li {
+    font-size: 14px;
+    color: #757474;
+	font-family: "RalewayRegular", Arial, Helvetica, sans-serif;
+}
+
+.about-text ul li:before {
+    content: "-";
+    position: relative;
+    left: -5px;
+}
+
+.about-text p {
+    font-size: 14px;
+    color: #757474;
+	font-family: "RalewayRegular", Arial, Helvetica, sans-serif;
+}
+
+.about-text ul {
+	margin-left: -35px;
+}
+
+.entry-btn {
+  	background: #800080;
+    color: #fff;
+    padding: 15px 35px;
+	text-transform: uppercase;
+	margin-top: 54px;	
+}
+
+.inform-item-1, .inform-item-2 {
+	text-align: center;
+}
+
+.inform-item-2 {
+	margin-top: 60px;
+}
+
+.inform-item-1 hr, .inform-item-2 hr {
+    border-top: 1px solid #4a148c;
+    width: 30px;
+}
+
+.ser-wrap {
+	margin-top: 30px;
+}
+
+.ser-wrap img {
+	width: 100%;
+}
+
+.text-over {
+	display: block;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(190, 137, 201, 0.7);
+    text-align: center;
+    padding-top: 20px;
+    color: #ffffff;
+    font-size: 18px;
+    height: 80px;
+}
+
+.methods-block__child {
+	margin-bottom: 100px;
+}
+
+.skype-block {
+	background-color: #4a148c;
+    padding: 60px 20px 60px;
+    color: #ffffff;
+}
+
+.skype-block span {
+	font-size: 20px;
+}
+
+.skype-block p {
+	font-size: 24px;
+}
+
+.consult-block {
+	text-align: center;
+}
+
+.consult-space:after {
+    content: url(../img/arrow.png);
+    position: absolute;
+    top: 20%;
+    right: -10%;
+}
+
+.consult-btn {
+	background: #800080;
+    color: #fff;
+	margin-top: 75px;
+    padding: 15px 65px;
+}
+
+.footer-block {
+	background: #4a148c;
+	padding-top: 60px;
+	padding-bottom: 80px;
+	color: #fff;
+}
+
+.footer-block p {
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.footer-block hr {
+    width: 30px;
+    float: left;
+    border-top: 1px solid #eee;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-block img {
+	width: 30px;
+	margin-right: 10px;
+}
+
+.footer-block a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    -webkit-transform-style: preserve-3d;
+}
+
+.slider-block img {
+    padding-bottom: 65px;
+}
+
+.slider-block p {
+    float: right;
+    font-size: 24px;
+}
+
+.footer-social {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+
+.slider-block {
+    padding-bottom: 65px;
+}
+
+.slider-block span {
+    font-size: 18px;
+    color: #757474;
+}
+
+.owl-nav {
+    display: block !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+    color: transparent;
+}
+
+.owl-prev {
+    background: url(../img/control-arrow.png) no-repeat;
+    height: 25px;
+    left: 5%;
+    position: absolute;
+}
+
+.owl-next {
+    background: url(../img/control-arrow.png) no-repeat;
+    height: 25px;
+    transform: scale(-1, 1);
+    right: 5%;
+    position: absolute;
+}
+
+.owl-prev:hover {
+	background: url(../img/control-arrow-hover.png) no-repeat;
+}
+
+.owl-next:hover {
+	background: url(../img/control-arrow-hover.png) no-repeat;
+}
+
+.animated.animation-completed {
+    opacity: 1;
+}
+
+.modal_callback {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(../img/form-bg.png);
+    width: 100%;
+    margin: auto;
+}
+
+.form_callback {
+    position: absolute;
+    max-width: 575px;
+    width: 100%;
+    padding: 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-height: 310px;
+
+}
+.form_callback h2{
+	font-size: 24px;
+	color: #ffffff;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.form_callback input{
+	width: 48%;
+	border-radius: 0;
+	float: left;
+	margin-bottom: 10px;
+	height: 50px;
+}
+.form_callback input:first-child{
+	margin-right: 4%
+}
+.form_callback textarea{
+	width: 100%;
+    border-radius: 0;
+    resize: none;
+    margin-bottom: 30px;
+}
+.closer-form{
+	content: '';
+	background: url(/img/close.png);
+	position:absolute;
+	right:0;
+	top:0;
+	width: 25px;
+    height: 25px;
+	margin-top: 62px;
+}
+.closer-form:hover{
+	background: url(/img/close-hover.png);
+}
+#callback_modal_btn{
+	border-radius: 0;
+	border: none;
+	padding: 10px 25px;
+	display: block;
+	margin: 0 auto;
+}
+.thanks-modal{
+	color: #ffffff;
+	text-align: center;
+	border: 2px solid #573f74;
+	margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding: 5px;
+}
+.thanks-modal h2{
+	font-size: 30px;
+	padding-bottom: 65px;
+}
+.thanks-modal p{
+	font-size: 24px;
+	padding-bottom: 65px;
+}
+.thanks-modal span{
+	font-size: 24px;
+	font-style: italic;
+	float: right;
+}
+.thanks-modal-2{
+	border: 2px solid #9687a8;
+	padding-top: 55px;
+	padding-bottom: 45px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+@media only screen and (max-width: 1100px) {
+.phone {
+    text-align: center;
+}
+}
+
+@media only screen and (max-width: 767px) {
+.menu {
+    float: none;
+    width: initial;
+    display: inline-block;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
